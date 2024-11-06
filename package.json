@@ -1,0 +1,17 @@
+{
+  "name": "selenium-test-suite",
+  "version": "1.0.0",
+  "description": "Tests fonctionnels avancés avec Selenium",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js",
+    "test:single": "node test.js --url"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.16.0",
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "proxy-chain": "^2.3.0",
+    "fake-useragent": "^1.0.1"
+  }
+}
